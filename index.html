@@ -8,26 +8,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
     <title>eSports</title>
 </head>
 <body>
     <header>
-        <div class="container-grid cabecalho">
+        <div class="container-grid cabecalho container">
             <nav>
                 <a href="C:\Users\user\OneDrive\Área de Trabalho\atividadeUc9\index.html"><img src="img/esport.logo.png" alt="logo eSports"></a>
                 
             </nav>
-            <nav class="menu">
+            <nav id="menu" class="menu">
                 <a href="#">cadastre-se</a>
                 <a href="indexLogin.html">Login</a>
             </nav>
+            <a onclick="mostrarmenu()" href="#" id="barras"><img class="icone-menu" src="img/bars-solid.svg" alt="icone do menu de hamburguer"></a>
         </div>  
 
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class=" banner">
             <div class="container-grid posicionamento-banner">
                 <div class="conteudo-banner">
                     <h1>NBA 2K23</h1>
@@ -38,7 +38,7 @@
         </section>
 
         <section class="faixa-de-marcas">
-            <nav class="logos">
+            <nav class="container logos">
                 
                 <a href=""><img src="img/playstation logo.png" alt="playstation logo" height="103px" width="103px">
                 
@@ -52,7 +52,7 @@
         </section>
          <section class="catalogo-de-jogos">
             <h1>destaques</h1>
-            <nav class="preços">
+            <nav class="container preços">
                 <div class="god-of-war conteudo-god">
                     <h2>god of war</h2>
                     <p>R$ 399,99</p>
@@ -79,7 +79,7 @@
                 </div>
             </section>    
             <section class="catalogo-de-jogos2">
-                <nav class="preços2">
+                <nav class="container preços2">
                     <div class="red-dead conteudo-red-dead">
                         <h2>Red Dead Redenption 2</h2>
                         <p>R$ 279,99</p>
@@ -107,7 +107,9 @@
             </section>
         <section class="propaganda">
             <div class="conteudo-propaganda container-grid">
-            <p>aproveite para reservar os serviços especiais do seu console</p>
+                <div class="container">
+                    <p>aproveite para reservar os serviços especiais do seu console</p>
+                </div>
             </div>
         </section>
 
@@ -115,8 +117,8 @@
     
     
     <footer>
-        <section class="rodape">
-            <div class="informacoes container-grid">
+        <section class="container rodape">
+            <div class="container informacoes container-grid">
                 <br>
                     <h2>Institucional</h2>
                     <p>Quem somos</p>
@@ -148,5 +150,6 @@
 
 </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js/script.js"></script>
 </html>
 

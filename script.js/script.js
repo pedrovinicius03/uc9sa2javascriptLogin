@@ -8,3 +8,7 @@ function mostrarmenu() {
     }
 
     }
+
+    function cadastrarNewsletter() {
+        alert("Usuário cadastrado com sucesso")
+    }
